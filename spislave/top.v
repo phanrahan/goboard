@@ -35,7 +35,7 @@ SPISlave #(.WIDTH(`N)) spi (
     .ucMOSI(ucMOSI),
     .ucMISO(ucMISO),
     .ucSEL_(ucSEL_),
-    .data_in({0,0,0,0,0,0,0,0}),
+    .data_in(spiin),
     .data_out(spiout)
 );
 
