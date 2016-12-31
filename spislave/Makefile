@@ -27,7 +27,7 @@ explain: top.txt
 	icebox_explain $<
 
 clean:
-	rm -f *.bin *.txt *.blif *.rpt
+	rm -f *.bin *.txt *.blif 
 
 
 .PRECIOUS: %.bin %.txt %.blif 
