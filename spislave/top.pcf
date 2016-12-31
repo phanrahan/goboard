@@ -1,0 +1,14 @@
+set_io clk 15
+set_io led[0] 56
+set_io led[1] 57
+set_io led[2] 59
+set_io led[3] 60
+set_io switch[0] 53
+set_io switch[1] 51
+set_io switch[2] 54
+set_io switch[3] 52
+
+set_io PMOD0 65
+set_io PMOD1 64
+set_io PMOD2 63
+set_io PMOD3 62
