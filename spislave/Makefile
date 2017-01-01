@@ -1,8 +1,8 @@
 DEVICE = 1k
 PACKAGE = vq100
 
-#VERILOGS = top.v spi.v pll.v 
-VERILOGS = top.v spi.v 
+VERILOGS = top.v spi.v pll.v 
+#VERILOGS = top.v spi.v 
 PCF = top.pcf
 
 QUIET = -q

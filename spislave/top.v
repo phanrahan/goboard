@@ -20,8 +20,8 @@ assign ucMOSI = PMOD1;
 assign PMOD2 = ucMISO;
 assign ucSCLK = PMOD3;
 
-// wire clk100;
-// pll U1 ( .clk(clk), .clkout(clk100));
+wire clk100;
+pll U1 ( .clkin(clk), .clkout(clk100));
 
 wire [`N-1:0] spiin;
 wire [`N-1:0] spiout;
