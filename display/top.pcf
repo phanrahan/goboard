@@ -1,0 +1,22 @@
+set_io clk 15
+
+set_io digit1[0] 3
+set_io digit1[1] 4
+set_io digit1[2] 93
+set_io digit1[3] 91
+set_io digit1[4] 90
+set_io digit1[5] 1
+set_io digit1[6] 2
+
+set_io digit2[0] 100
+set_io digit2[1] 99
+set_io digit2[2] 97
+set_io digit2[3] 95
+set_io digit2[4] 94
+set_io digit2[5] 8
+set_io digit2[6] 96
+
+set_io PMOD0 65
+set_io PMOD1 64
+set_io PMOD2 63
+set_io PMOD3 62

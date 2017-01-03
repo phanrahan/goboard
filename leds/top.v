@@ -20,9 +20,6 @@ assign ucMOSI = PMOD1;
 assign PMOD2 = ucMISO;
 assign ucSCLK = PMOD3;
 
-wire clk100;
-pll U1 ( .clkin(clk), .clkout(clk100));
-
 wire [`N-1:0] spiin;
 wire [`N-1:0] spiout;
 
@@ -30,7 +27,6 @@ assign spiin = {0,0,0,0,switch};
 
 SPISlave #(.WIDTH(`N)) spi (
     .clk(clk),
-    //.clk(clk100),
     .ucSCLK(ucSCLK),
     .ucMOSI(ucMOSI),
     .ucMISO(ucMISO),
